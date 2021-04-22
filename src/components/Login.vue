@@ -29,10 +29,11 @@ export default {
   },
   methods: {
     login () {
-      var _this = thisgit 
+      var _this = this
       console.log(this.$store.state)
       this.$axios
         .post('/login', {
+          // 向后端发送数据
           username: this.loginForm.username,
           password: this.loginForm.password
         })

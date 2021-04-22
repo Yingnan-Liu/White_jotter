@@ -1,7 +1,7 @@
 // 首页组件
 <template>
     <div>
-      Hello World!
+      Hello World! this is appindex
     </div>
 </template>
 
